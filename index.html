@@ -3,8 +3,8 @@
   <head>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/js/index.js">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     <title>Nested Accordion</title>
   </head>
 
@@ -41,11 +41,54 @@
 
       <!--Begin Accordion-->
 
+      <section class= "accordion">
+        <div class="clickable" id="clicks1">
+          <div class= " open open1" id="nest1">
+            <i class="fa fa-arrow-right grey"></i>
+            <p class= "top">This Is The First Section!</p>
+          </div>
+
+          <div class="text-wall">
+            <div="internal-text internal-text1" id="internalText1">
+
+            </div>
+          </div>
+        </div>
+
+        <div class= "clickable" id="clicks2">
+          <div class= " open open2" id="nest2">
+            <i class="fa fa-arrow-right grey"></i>
+            <p class= "top">This Is The Second Section!</p>
+          </div>
+
+          <div class="text-wall">
+            <div="internal-text internal-text2" id="internalText2">
+
+            </div
+          </div>
+        </div>
+
+        <div class= "clickable" id="clicks3">
+
+          <div class= " open open3" id="nest3">
+            <i class="fa fa-arrow-right grey"></i>
+            <p class= "top">This Is The Third Section!</p>
+          </div>
+
+          <div class="text-wall">
+            <div="internal-text internal-text3" id="internalText3">
+
+            </div>
+          </div>
+        </div>
 
 
 
 
+      </section>
     </section>
+    <script src="assets/js/index.js">
+    </script>
   </body>
 
 </html>

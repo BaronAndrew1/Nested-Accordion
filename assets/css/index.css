@@ -1,5 +1,9 @@
 body {
-  font-family: "Verdana", "sans-serif";
+  font-family: "Lato", "Calibri", "Arial", "sans-serif";
+}
+
+i {
+  display: inline-block;
 }
 
 .container {
@@ -20,15 +24,16 @@ h4 {
 }
 
 .main-header {
-  color: blue;
+  color: #47a3da;
   display: inline-block;
+  margin-bottom: 70px;
 }
 
 nav {
   position: absolute;
   margin-left: 840px;
-  margin-top: -40px;
-  color: blue;
+  margin-top: -95px;
+  color: #47a3da;
 }
 
 li {
@@ -36,12 +41,12 @@ li {
 }
 
 li:hover {
-  background: blue;
+  background: #47a3da;
   color: white;
 }
 
 .nav {
-  border: 4px solid blue;
+  border: 4px solid #47a3da;
   border-radius: 50%;
 }
 
@@ -56,4 +61,43 @@ li:hover {
 
 .nav-file-drawer {
   padding: 6.5px 6.5px 6.5px 6.5px;
+}
+
+.open {
+  font-size: 35px;
+  font-weight: 300;
+  border-bottom: 1px solid rgb(230,230,230);
+}
+
+.open1 {
+  margin-top: 30px;
+}
+
+.open2{
+  margin-top: 60px;
+}
+
+.open3{
+  margin-top: 60px;
+}
+
+.grey {
+  color: rgb(230,230,230);
+}
+
+.grey:hover {
+  color: #47a3da;
+  transform: rotateZ(45deg);
+}
+
+.top {
+  display: inline-block;
+  color: #47a3da;
+  margin-bottom: 25px;
+}
+
+.text-wall{
+  font-size: 20px;
+  color: rgb(170,170,170);
+  line-height: 140%;
 }
