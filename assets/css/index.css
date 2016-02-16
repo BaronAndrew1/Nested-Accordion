@@ -6,6 +6,14 @@ body {
 
 /*Set Content Location and Style*/
 
+.internal-text {
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+
 .open1 {
   margin-top: 30px;
 }
@@ -99,7 +107,7 @@ li:hover {
   border-bottom: 1px solid rgb(230,230,230);
 }
 
-.grey:hover {
+.blue:hover {
   color: #47a3da;
   transform: rotateZ(45deg);
 }
@@ -111,5 +119,5 @@ li:hover {
 }
 
 .blue {
-  color: color: #47a3da;
+  color: #47a3da;
 }
